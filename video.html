@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses | Video</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="asset/css/owl.carousel.css">
+    <link rel="stylesheet" href="asset/css/owl.theme.green.css">
+    <script src="https://kit.fontawesome.com/70b22ffbec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+        <div class="nav_wraper">
+    
+            <div class="flex space-x-4">
+            <!-- logo -->
+            <div>
+                <a href="index.html" class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
+                <img src="./asset/photo/ek.png" class="h-6 w-6 mr-1 text-blue-400" alt="">
+                <span class="font-bold">E-Book</span>
+                </a>
+            </div>
+    
+            <!-- primary nav -->
+            <div class="hidden md:flex items-center space-x-1">
+                <a href="index.html" class="n-item py-5 px-3 text-gray-700 ">Home</a>
+                <a href="course.html" class="n-item py-5 px-3 text-gray-700 ">Courses</a>
+                <a href="instructor.html" class="n-item py-5 px-3 text-gray-700 ">Instructor</a>
+                <a href="blog.html" class="n-item py-5 px-3 text-gray-700 ">Blog</a>
+                <a href="#" class="n-item py-5 px-3 text-gray-700 ">About Us</a>
+            </div>
+            </div>
+
+            <!-- secondary nav -->
+            <div class="hidden md:flex items-center space-x-1">
+            <a href="" class="py-5 px-3">Login</a>
+            <a href="" class="py-2 px-3 bg-main hover:bg-main-hover text-white rounded transition duration-300">Signup</a>
+            </div>
+
+            <!-- mobile button goes here -->
+            <div class="md:hidden flex items-center">
+            <button class="mobile-menu-button">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            </div>
+    
+        </div>
+        </div>
+    
+        <!-- mobile menu -->
+        <div class="mobile-menu hidden md:hidden">
+        <a href="#" class="block py-2 px-4 text-sm hover:bg-blue-200">Features</a>
+        <a href="#" class="block py-2 px-4 text-sm hover:bg-blue-200">Pricing</a>
+        </div>
+    </nav>
+    
+
+
+    <div class="section2 ">
+        <div class="container">
+            <div class="row mt-4">
+                adsd
+            </div>
+            <div class="row mt-4 flex flex-col lg:flex-row gap-5">
+                <div class="col w-full flex-row space-y-5">
+                    <div class="ek_vPlayer">
+                        <div class="ek_vPlayerBox">
+                            <!-- Time Liner -->
+                            <div class="ek_vTimeline">
+                                <div class="group ek_vTimeProgress">
+                                    <span class="ek_vTime effect">00:00</span>
+                                    <div class="ek_vTimeProgressBar effect"></div>
+                                </div>
+                            </div>
+                            <!-- Controllers -->
+                            <ul class="ek_vController">
+                                <li class="option ek_vcLeft">
+                                    <button><i class="fa-solid fa-volume-high icon volume"></i></button>
+                                    <input class="ek_volumeRange" min="0" max="1" step="any" type="range">
+                                    <div class="ek_cVolumeTimer">
+                                        <p class="ek_currentTime">00:00</p>
+                                        <p class="ek_separator">/</p>
+                                        <p class="ek_duration">00:00</p>
+                                    </div>
+                                </li>
+                                <li class="option ek_vcCenter">
+                                    <button class="ek_skipBackward"><i class="fa-solid fa-backward icon"></i></button>
+                                    <button class="ek_playPause"><i class="fa-solid fa-play icon"></i></button>
+                                    <button class="ek_skipForward"><i class="fa-solid fa-forward icon"></i></button>
+                                </li>
+                                <li class="option ek_vcRight">
+                                    <button class="ek_speed icon"><i class="fa-solid fa-gauge-high "></i></button>
+                                    <button class="ek_miniScreen icon"><i class="fa-solid fa-clone "></i></button>
+                                    <button class="ek_fullScreen icon"><i class="fa-solid fa-expand "></i></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Video -->
+                        <video src="./asset/video1.mp4"></video>
+                    </div>
+                    <div class="profile flex flex-col gap-5 sm:flex-row justify-between">
+                        <div class="flex items-center">
+                            <img src="./asset/photo/user (2).jpg" alt="" class="w-12 h-12 mr-4 rounded-full" srcset="">
+                            <div class="flex-row">
+                                <a href="#" class="font-semibold text-gray-800">Esmail Khalifa</a>
+                                <h5 class="text-gray-500 text-sm">Admin</h5>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center">
+                            <div class="inline-flex rounded-md shadow-sm" role="group">
+                                <button type="button" class="px-3 py-1 text-sm font-medium text-main bg-white border border-gray-200 rounded-l-lg hover:bg-gray-100  focus:z-10 ">
+                                    <i class="fa-regular fa-heart"></i> 4k
+                                </button>
+                                <button type="button" class="px-3 py-1 text-sm font-medium text-gray-900 bg-white border-r border-t border-b border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-main focus:z-10  focus:text-main ">
+                                    <i class="fa-solid fa-thumbs-down"></i>
+                                </button>
+                            </div>
+                            <button type="button" class="ml-2 px-3 py-1 text-sm font-medium text-gray-900 bg-white border border-t border-b border-gray-200 rounded-md hover:bg-gray-100 hover:text-main focus:z-10  focus:text-main ">
+                                <i class="fa-solid fa-share"></i> Share
+                            </button>
+                        </div>
+                    </div>
+                    <div class="comment flex-row space-y-4">
+                        <h5 class="comment_top text-gray-500 font-light">
+                            10,540 Comments
+                        </h5>
+
+                        <div class="comment_form flex-row space-y-8 hidden sm:block ">
+                            <div class="comment_item">
+                                <form action="#" method="post">
+                                    <input type="text" name="comment" placeholder="Comment" class="w-full border-b-2 bg-white focus:outline-0 py-2 duration-300 focus:border-main">
+                                    <div class="mt-2 text-end text-sm">
+                                        <button type="submit">Cancel</button>
+                                        <button type="submit" class="ml-2 bg-main px-3 py-1 rounded-lg text-white">Comment</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- Comment -->
+                            <div class="comment_item flex items-start gap-4">
+                                <div class="comment_profile w-12">
+                                    <img src="./asset/photo/user (2).jpg" alt="" srcset="" class="w-full h-12 rounded-full">
+                                </div>
+                                <div class="comment_main w-full">
+                                    <h4 class="font-semibold">Noel Steiner</h4>
+                                    <p class="text-normal text-gray-700">Listening to this after finally getting the news of being cancer free. Sending love and light to all who have made it here </p>
+                                    <div class="action">
+                                        <span><i class="fa-regular fa-thumbs-up action_icon"></i> 300</span>
+                                        <span class="action_icon text-sm">Reply</span>
+                                        <!-- <i class="fa-solid fa-comment action_icon"></i> -->
+                                    </div>
+                                    <div class="mt-3">
+                                        <div class="comment_item flex items-start gap-4">
+                                            <div class="comment_profile w-12">
+                                                <img src="./asset/photo/user (1).jpg" alt="" srcset="" class="w-full h-12 rounded-full">
+                                            </div>
+                                            <div class="comment_main w-full">
+                                                <h4 class="font-semibold">Aki Taken</h4>
+                                                <p class="text-normal text-gray-700">This is so great, everyone here is spreading positivity, thank you everyone, and good luck!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Comment -->
+                            <div class="comment_item flex items-start gap-4">
+                                <div class="comment_profile w-12">
+                                    <img src="./asset/photo/user (1).jpg" alt="" srcset="" class="w-full h-12 rounded-full">
+                                </div>
+                                <div class="comment_main w-full">
+                                    <h4 class="font-semibold">Noel Steiner</h4>
+                                    <p class="text-normal text-gray-700">Listening to this after finally getting the news of being cancer free. Sending love and light to all who have made it here </p>
+                                    <div class="action">
+                                        <span><i class="fa-regular fa-thumbs-up action_icon"></i> 300</span>
+                                        <span class="action_icon text-sm">Reply</span>
+                                        <!-- <i class="fa-solid fa-comment action_icon"></i> -->
+                                    </div>
+                                    <div class="mt-3">
+                                        <div class="comment_item flex items-start gap-4">
+                                            <div class="comment_profile w-12">
+                                                <img src="./asset/photo/user (1).jpg" alt="" srcset="" class="w-full h-12 rounded-full">
+                                            </div>
+                                            <div class="comment_main w-full">
+                                                <h4 class="font-semibold">John</h4>
+                                                <p class="text-normal text-gray-700">This is so great, everyone here is spreading positivity, thank you everyone, and good luck!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Comment -->
+                            <div class="comment_item flex items-start gap-4">
+                                <div class="comment_profile w-12">
+                                    <img src="./asset/photo/user (2).jpg" alt="" srcset="" class="w-full h-12 rounded-full">
+                                </div>
+                                <div class="comment_main w-full">
+                                    <h4 class="font-semibold">Shafin</h4>
+                                    <p class="text-normal text-gray-700">t has been months since I first used this song and I can confirm that it helps me a lot for studying. 
+                                        Use it while repeating or writing, it's amazing!</p>
+                                </div>
+                            </div>
+                            <!-- Comment -->
+                            <div class="comment_item flex items-start gap-4">
+                                <div class="comment_profile w-12">
+                                    <img src="./asset/photo/user (2).jpg" alt="" srcset="" class="w-full h-12 rounded-full">
+                                </div>
+                                <div class="comment_main w-full">
+                                    <h4 class="font-semibold">Noel Steiner</h4>
+                                    <p class="text-normal text-gray-700">Listening to this after finally getting the news of being cancer free. Sending love and light to all who have made it here </p>
+                                    <div class="action">
+                                        <span><i class="fa-regular fa-thumbs-up action_icon"></i> 300</span>
+                                        <span class="action_icon text-sm">Reply</span>
+                                        <!-- <i class="fa-solid fa-comment action_icon"></i> -->
+                                    </div>
+                                    <div class="mt-3">
+                                        <div class="comment_item flex items-start gap-4">
+                                            <div class="comment_profile w-12">
+                                                <img src="./asset/photo/user (1).jpg" alt="" srcset="" class="w-full h-12 rounded-full">
+                                            </div>
+                                            <div class="comment_main w-full">
+                                                <h4 class="font-semibold">Jenny</h4>
+                                                <p class="text-normal text-gray-700">This is so great, everyone here is spreading positivity, thank you everyone, and good luck!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Comment -->
+                            <div class="comment_item flex items-start gap-4">
+                                <div class="comment_profile w-12">
+                                    <img src="./asset/photo/user (1).jpg" alt="" srcset="" class="w-full h-12 rounded-full">
+                                </div>
+                                <div class="comment_main w-full">
+                                    <h4 class="font-semibold">Nobel</h4>
+                                    <p class="text-normal text-gray-700">To the person reading this: 
+                                        Good luck for your exams♥️</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col w-full lg:w-1/2">
+                    <div class="player_top_tt flex-row space-y-2">
+                        <div class="row flex justify-between">
+                            <div id="accordion-open" data-accordion="open" class="w-full">
+                                <!-- Item 1 -->
+                                <h2 id="accordion-open-heading-1">
+                                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl " data-accordion-target="#accordion-open-body-1" aria-expanded="true" aria-controls="accordion-open-body-1">
+                                        <span class="flex items-center">Introduction</span>
+                                        <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                    </button>
+                                </h2>
+                                <div id="accordion-open-body-1" class="hidden" aria-labelledby="accordion-open-heading-1">
+                                    <div class="p-5 border border-b-0 border-gray-200 flex-row space-y-2">
+                                        <a href="#" class="video_div">
+                                            <div class="video_div_child">
+                                                <i class="fa-solid fa-play mr-3 text-lg"></i>
+                                                <div class="flex-row">
+                                                    <p>Javascript Lesson 1.1</p>
+                                                    <p class="text-xs text-zinc-400">24:00</p>
+                                                </div>
+                                            </div>
+                                            <div class=""><span class="text-sm font-semibold text-main">Free</span></div>
+                                        </a>
+
+                                        <a href="#" class="video_div">
+                                            <div class="video_div_child">
+                                                <i class="fa-solid fa-play mr-3 text-lg"></i>
+                                                <div class="flex-row">
+                                                    <p>Javascript Lesson 1.1</p>
+                                                    <p class="text-xs text-zinc-400">24:00</p>
+                                                </div>
+                                            </div>
+                                            <div class=""><span class="text-sm font-semibold text-main">Free</span></div>
+                                        </a>
+
+                                        <a href="#" class="video_div">
+                                            <div class="video_div_child">
+                                                <i class="fa-solid fa-play mr-3 text-lg"></i>
+                                                <div class="flex-row">
+                                                    <p>Javascript Lesson 1.1</p>
+                                                    <p class="text-xs text-zinc-400">24:00</p>
+                                                </div>
+                                            </div>
+                                            <div class=""><span class="text-sm font-semibold text-main">Free</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Item2 -->
+                                <h2 id="accordion-open-heading-2">
+                                <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 " data-accordion-target="#accordion-open-body-2" aria-expanded="false" aria-controls="accordion-open-body-2">
+                                    <span class="flex items-center">Lesson 2</span>
+                                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </button>
+                                </h2>
+                                <div id="accordion-open-body-2" class="hidden" aria-labelledby="accordion-open-heading-2">
+                                    <!-- Video container -->
+                                    <div class="p-5 border border-b-0 border-gray-200 flex-row space-y-2">
+                                        <a href="#" class="video_div">
+                                            <div class="text-zinc-600"><i class="fa-solid fa-play mr-2"></i>Javascript Lesson 2.1</div>
+                                            <div class="a"><i class="fa-solid fa-lock text-main"></i></div>
+                                        </a>
+                                        <a href="#" class="video_div">
+                                            <div class="text-zinc-600"><i class="fa-solid fa-play mr-2"></i>Javascript Lesson 2.2</div>
+                                            <div class="a"><i class="fa-solid fa-lock text-main"></i></div>
+                                        </a>
+                                        <a href="#" class="video_div">
+                                            <div class="text-zinc-600"><i class="fa-solid fa-play mr-2"></i>Javascript Lesson 2.3</div>
+                                            <div class="a"><i class="fa-solid fa-lock text-main"></i></div>
+                                        </a>
+                                        <a href="#" class="video_div">
+                                            <div class="text-zinc-600"><i class="fa-solid fa-play mr-2"></i>Javascript Lesson 2.4</div>
+                                            <div class="a"><i class="fa-solid fa-lock text-main"></i></div>
+                                        </a>
+                                        <a href="#" class="video_div">
+                                            <div class="text-zinc-600"><i class="fa-solid fa-play mr-2"></i>Javascript Lesson 2.5</div>
+                                            <div class="a"><i class="fa-solid fa-lock text-main"></i></div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Items 3 -->
+                                <h2 id="accordion-open-heading-3">
+                                <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 " data-accordion-target="#accordion-open-body-3" aria-expanded="false" aria-controls="accordion-open-body-3">
+                                    <span class="flex items-center">Lesson 3</span>
+                                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </button>
+                                </h2>
+                                <div id="accordion-open-body-3" class="hidden" aria-labelledby="accordion-open-heading-3">
+                                    <!-- Video Container -->
+                                    <div class="p-5 border border-t-0 border-gray-200 flex-row space-y-2">
+                                        <a href="#" class="video_div">
+                                            <div class="text-zinc-600"><i class="fa-solid fa-play mr-2"></i>Javascript Lesson 3.1</div>
+                                            <div class="a"><i class="fa-solid fa-lock text-main"></i></div>
+                                        </a>
+                                        <a href="#" class="video_div">
+                                            <div class="text-zinc-600"><i class="fa-solid fa-play mr-2"></i>Javascript Lesson 3.2</div>
+                                            <div class="a"><i class="fa-solid fa-lock text-main"></i></div>
+                                        </a>
+                                        <a href="#" class="video_div">
+                                            <div class="text-zinc-600"><i class="fa-solid fa-play mr-2"></i>Javascript Lesson 3.3</div>
+                                            <div class="a"><i class="fa-solid fa-lock text-main"></i></div>
+                                        </a>
+                                        <a href="#" class="video_div">
+                                            <div class="text-zinc-600"><i class="fa-solid fa-play mr-2"></i>Javascript Lesson 3.4</div>
+                                            <div class="a"><i class="fa-solid fa-lock text-main"></i></div>
+                                        </a>
+                                        <a href="#" class="video_div">
+                                            <div class="text-zinc-600"><i class="fa-solid fa-play mr-2"></i>Javascript Lesson 3.5</div>
+                                            <div class="a"><i class="fa-solid fa-lock text-main"></i></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Comment -->
+                        <div class="comment_form flex-row space-y-8 mt-24 block sm:hidden ">
+                            <div class="comment_item">
+                                <form action="#" method="post">
+                                    <input type="text" name="comment" placeholder="Comment" class="w-full border-b-2 bg-white focus:outline-0 py-2 duration-300 focus:border-main">
+                                    <div class="mt-2 text-end text-sm">
+                                        <button type="submit">Cancel</button>
+                                        <button type="submit" class="ml-2 bg-main px-3 py-1 rounded-lg text-white">Comment</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- Comment -->
+                            <div class="comment_item flex items-start gap-4">
+                                <div class="comment_profile w-12">
+                                    <img src="./asset/photo/user (2).jpg" alt="" srcset="" class="w-full h-12 rounded-full">
+                                </div>
+                                <div class="comment_main w-full">
+                                    <h4 class="font-semibold">Noel Steiner</h4>
+                                    <p class="text-normal text-gray-700">Listening to this after finally getting the news of being cancer free. Sending love and light to all who have made it here </p>
+                                    
+                                </div>
+                            </div>
+                            <!-- Comment -->
+                            <div class="comment_item flex items-start gap-4">
+                                <div class="comment_profile w-12">
+                                    <img src="./asset/photo/user (1).jpg" alt="" srcset="" class="w-full h-12 rounded-full">
+                                </div>
+                                <div class="comment_main w-full">
+                                    <h4 class="font-semibold">Aki Taken</h4>
+                                    <p class="text-normal text-gray-700">This is so great, everyone here is spreading positivity, thank you everyone, and good luck!</p>
+                                </div>
+                            </div>
+                            <!-- Comment -->
+                            <div class="comment_item flex items-start gap-4">
+                                <div class="comment_profile w-12">
+                                    <img src="./asset/photo/user (2).jpg" alt="" srcset="" class="w-full h-12 rounded-full">
+                                </div>
+                                <div class="comment_main w-full">
+                                    <h4 class="font-semibold">Shafin</h4>
+                                    <p class="text-normal text-gray-700">t has been months since I first used this song and I can confirm that it helps me a lot for studying. 
+                                        Use it while repeating or writing, it's amazing!</p>
+                                </div>
+                            </div>
+                            <!-- Comment -->
+                            <div class="comment_item flex items-start gap-4">
+                                <div class="comment_profile w-12">
+                                    <img src="./asset/photo/user (2).jpg" alt="" srcset="" class="w-full h-12 rounded-full">
+                                </div>
+                                <div class="comment_main w-full">
+                                    <h4 class="font-semibold">Noel Steiner</h4>
+                                    <p class="text-normal text-gray-700">Listening to this after finally getting the news of being cancer free. Sending love and light to all who have made it here Listening to this after finally getting the news of being cancer free. Sending love and light to all who have made it heress</p>
+                                </div>
+                            </div>
+                            <!-- Comment -->
+                            <div class="comment_item flex items-start gap-4">
+                                <div class="comment_profile w-12">
+                                    <img src="./asset/photo/user (1).jpg" alt="" srcset="" class="w-full h-12 rounded-full">
+                                </div>
+                                <div class="comment_main w-full">
+                                    <h4 class="font-semibold">Nobel</h4>
+                                    <p class="text-normal text-gray-700">To the person reading this: 
+                                        Good luck for your exams♥️</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="border-t">
+        <div class="container">
+            <div class="footer_one">
+                <div class="footer_box pr-2">
+                    <img src="asset/photo/ek.png" class="w-20" alt="" srcset="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat mauris Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat mauris</p>
+                </div>
+                <div class="footer_box">
+                    <h3 class="footer_title">Instructor</h3>
+                    <ul class="footer_list">
+                        <li><a class="footer_link" href="#">Profile</a></li>
+                        <li><a class="footer_link" href="#">Login</a></li>
+                        <li><a class="footer_link" href="#">Register</a></li>
+                        <li><a class="footer_link" href="#">Instructor</a></li>
+                        <li><a class="footer_link" href="#">Dashboard</a></li>
+                    </ul>
+                </div>
+                <div class="footer_box">
+                    <h3 class="footer_title">Student</h3>
+                    <ul class="footer_list">
+                        <li><a class="footer_link" href="#">Profile</a></li>
+                        <li><a class="footer_link" href="#">Login</a></li>
+                        <li><a class="footer_link" href="#">Register</a></li>
+                        <li><a class="footer_link" href="#">Instructor</a></li>
+                        <li><a class="footer_link" href="#">Dashboard</a></li>
+                    </ul>
+                </div>
+                <div class="footer_box">
+                    <h3 class="footer_title">Address</h3>
+                    <div class="footer_input">
+                        <input class="focus:outline-0" type="text" name="subscribe" id="" placeholder="Enter Your Email">
+                            
+                        <button type="submit" class="bg-main text-white px-6 py-2 rounded-lg hover:bg-main-hover">Submit</button>
+                    </div>
+                    <p><i class="fa-solid fa-location-dot text-main mr-1"></i> 71/A Dhanmondi, Dhaka, Bangladesh</p>
+                    <p><i class="fa-solid fa-message text-main mr-1"></i> example@gmail.com</p>
+                    <p><i class="fa-solid fa-phone text-main mr-1"></i> +8801787079455</p>
+                </div>
+            </div>
+
+            <div class="footer_two">
+                <div class="footer_copy">
+                    <p class="pr-2 border-r border-zinc-200">Privacy</p>
+                    <p class="pl-2">Policy</p>
+                </div>
+                @ 2023 Khaalifa. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+  <!-- Main Js -->
+  <script src="asset/js/package/owl/jquery.min.js"></script>
+  <script src="asset/js/package/owl/owl.carousel.min.js"></script>
+  <script src="./asset/js/package/effects/main.js"></script>
+  <script src="./asset/js/main.js"></script>
+  <script src="./asset/js/player.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+
+</body>
+</html>

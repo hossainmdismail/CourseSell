@@ -23,7 +23,7 @@
         @apply bg-cover bg-center h-full
     }
     .nav{
-        @apply bg-white shadow-md fixed w-full text-zinc-600 font-medium z-10
+        @apply bg-white shadow-md fixed w-full text-zinc-600 font-medium z-20
     }
     .nav_wraper{
         @apply flex justify-between
@@ -209,7 +209,50 @@
     .instructor_card{
         @apply border shadow-sm hover:shadow-md
     }
+    .bread_icon{
+        @apply p-3 text-gray-700 hover:text-main cursor-pointer
+    }
+    /*Details*/
+
+    .instructor_item{
+        @apply border p-4 rounded-xl bg-white h-auto grid gap-3
+    }
+    .separation{
+        @apply flex
+    }
+    .separation{
+        @apply flex items-center 
+    }
+    .separation_icon{
+        @apply w-16 h-16 bg-main rounded-full flex items-center justify-center bg-opacity-30 text-main text-xl mr-3
+    }
+    /* Instructor Details */
+    .player_top{
+        @apply flex-row space-y-4 w-full
+    }
+    .playList{
+        @apply flex-row space-y-4 w-full md:w-2/5 bg-slate-50 p-4 rounded-lg shadow-lg border
+    }
+    .player_box{
+        @apply flex-row space-y-5 items-start md:flex md:gap-5
+    }
+    .video_div{
+        @apply flex justify-between items-center p-4 bg-zinc-50 rounded-lg hover:bg-zinc-100
+    }
+    .video_div_child{
+        @apply text-zinc-600 flex items-center
+    }
+    /* Category */
+    .ins_category{
+        @apply flex gap-3
+    }
+    .ins_category_item{
+        @apply bg-main px-3 text-sm py-1 text-white font-semibold rounded-xl cursor-pointer hover:bg-main-hover
+    }
+
 }
+
+
 
 /* Filter */
 @layer components{
@@ -263,7 +306,106 @@
         @apply border p-4 rounded-lg grid gap-4
     }
     .flter_block{
-        @apply text-zinc-500
+        @apply text-zinc-500 flex items-center gap-2 hover:text-main cursor-pointer duration-200
+    }
+    .flter_blog{
+        @apply text-zinc-800 font-medium text-sm flex items-start hover:text-main cursor-pointer duration-200
     }
 }
 
+
+
+/* Pla yer */
+@layer components{
+    .fullContent{
+        @apply mx-auto max-w-7xl px-2 py-2 sm:px-6 lg:px-8
+    }
+    .ek_vPlayer{
+        @apply bg-slate-700 w-full h-auto relative rounded-lg overflow-hidden
+    }
+    .textBox{
+        @apply w-6/12 h-5/6
+    }
+    .ek_vPlayerBox{
+        @apply absolute bottom-0 left-0 right-0 z-10 bg-black bg-opacity-20
+    }
+    .icon{
+        @apply py-1 px-2 ease-in-out duration-150
+    }
+    .playLogo{
+        @apply text-xl text-zinc-500 font-logo-title ml-1
+    }
+    .option{
+        @apply w-full
+    }
+    .break{
+        @apply w-full h-1 bg-black relative
+    }
+    .breakContent{
+        @apply w-16 h-16 bg-white flex items-center justify-center font-logo-title text-4xl absolute -top-8 rounded-full border-black border-4
+    }
+    .breakIND{
+        @apply w-5  h-5 bg-black absolute -top-2 right-0 rounded-full
+    }
+
+
+
+    
+    .ek_vController{
+        @apply px-4 py-2 text-white flex items-center
+    }
+    .ek_vcLeft{
+        @apply flex items-center 
+    }
+    .ek_vcCenter{
+        @apply text-center 
+    }
+    .ek_vcRight{
+        @apply text-end 
+    }
+    .ek_volumeRange{
+        @apply h-1 w-14 hidden md:block
+    }
+    .ek_cVolumeTimer{
+        @apply flex text-sm pl-2
+    }
+
+    /* Timer */
+    .ek_vTimeProgress{
+        @apply h-0.5 bg-white relative cursor-pointer hover:h-1 ease-in-out duration-100
+    }
+    .ek_vTimeProgressBar{
+        @apply bg-red-600 h-full w-0 absolute top-0 left-0 before:absolute before:w-3 before:h-3 before:bg-red-800 before:-top-1 before:right-0 before:rounded-full before:cursor-pointer before:hidden before:group-hover:block
+    }
+    .ek_vTime{
+        @apply absolute left-1/2 -top-7 text-xs bg-white rounded-md bg-opacity-70 px-1 hidden group-hover:block
+    }
+    .ek_fullScreen{
+        @apply hover:text-red-600
+    }
+    .volume{
+        @apply hover:text-red-700
+    }
+    .ek_playPause{
+        @apply hover:text-zinc-200
+    }
+}
+
+/* Blog */
+@layer components{
+    .blog_grid{
+        @apply flex flex-col gap-4 lg:flex-row
+    }
+    .blog_left{
+        @apply grid w-full grid-cols-1 gap-4  md:grid-cols-2 lg:grid-cols-2
+    }
+    .blogDetails_left{
+        @apply grid w-full gap-4
+    }
+    .action{
+        @apply flex gap-3 text-zinc-700 items-center
+    }
+    .action_icon{
+        @apply hover:text-main cursor-pointer
+    }
+}
