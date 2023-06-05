@@ -8,6 +8,8 @@ module.exports = {
     "./course_video.html",
     "./video.html",
     "./blog.html",
+    "./login.html",
+    "./signup.html",
     "./blog_details.html"],
   theme: {
     extend: {

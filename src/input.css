@@ -22,6 +22,13 @@
     .dashboard{
         @apply bg-cover bg-center h-full
     }
+    .owl-dot{
+        @apply bg-main
+    }
+    .home-button{
+        @apply absolute bg-main text-center w-10 h-10 flex items-center justify-center rounded-full shadow-xl opacity-60 cursor-pointer top-10 right-10 hover:opacity-100 duration-200
+        /* absolute bg-main text-center w-10 h-10 top-3 flex items-center justify-center rounded-full shadow-lg cursor-pointer top */
+    }
     .nav{
         @apply bg-white shadow-md fixed w-full text-zinc-600 font-medium z-20
     }
@@ -41,7 +48,7 @@
         @apply transition duration-300 after:absolute after:bg-blue-800 after:w-0 after:h-1 after:block  hover:after:w-8
     }
     .mini-button{
-        @apply py-2 px-4 text-blue-950 border border-main rounded-lg transition duration-200 hover:bg-main hover:text-white
+        @apply py-2 px-4 text-white text-sm font-medium bg-main rounded-lg transition duration-200 hover:bg-main-hover
     }
     .head_title{
         @apply text-2xl text-blue-950 font-bold w-full leading-tight tracking-wide md:text-3xl lg:text-5xl md:w-7/12
@@ -97,7 +104,7 @@
         @apply py-14 grid grid-cols-1  gap-6 sm:grid-cols-2 lg:grid-cols-4
     }
     .box-item{
-        @apply bg-white border border-gray-200 p-8 rounded-xl flex flex-col justify-center items-center text-center leading-10 duration-150 hover:border-main hover:shadow-lg
+        @apply bg-white border border-gray-200 p-8 rounded-xl flex flex-col justify-center items-center text-center leading-10 duration-150 hover:border-main hover:shadow-lg hover:bg-red-50 hover:bg-opacity-30
     }
     /* Course Section */
     .box-course-item{
@@ -133,6 +140,9 @@
         @apply py-5 grid gap-2
     }
     /* Blog */
+    .box-blog-item{
+        @apply bg-slate-100 p-4 rounded-xl flex flex-col duration-150  hover:shadow-lg
+    }
     .blog_details{
         @apply text-start py-3 grid gap-2
     }
@@ -358,10 +368,10 @@
         @apply flex items-center 
     }
     .ek_vcCenter{
-        @apply text-center 
+        @apply text-center  flex justify-center 
     }
     .ek_vcRight{
-        @apply text-end 
+        @apply text-end flex justify-end
     }
     .ek_volumeRange{
         @apply h-1 w-14 hidden md:block
@@ -382,6 +392,9 @@
     }
     .ek_fullScreen{
         @apply hover:text-red-600
+    }
+    .fullscreen{
+        @apply absolute w-full h-auto top-0 left-0
     }
     .volume{
         @apply hover:text-red-700
