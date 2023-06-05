@@ -62,7 +62,7 @@
         @apply text-lg w-full md:text-xl text-zinc-600 lg:w-1/2
     }
     .search{
-        @apply flex justify-between items-center bg-white w-full md:w-9/12 p-4 rounded-full mt-7 mb-5
+        @apply flex justify-between items-center bg-white w-full md:w-9/12 p-4 rounded-xl md:rounded-full  mt-7 mb-5
     }
 
     /* WebInfo */  

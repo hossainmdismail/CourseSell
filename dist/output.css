@@ -814,7 +814,7 @@ video {
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  border-radius: 9999px;
+  border-radius: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding: 1rem;
@@ -823,6 +823,7 @@ video {
 @media (min-width: 768px) {
   .search {
     width: 75%;
+    border-radius: 9999px;
   }
 }
 
@@ -2806,6 +2807,18 @@ video {
     width: 40%;
   }
 
+  .md\:w-0 {
+    width: 0px;
+  }
+
+  .md\:w-3 {
+    width: 0.75rem;
+  }
+
+  .md\:w-10 {
+    width: 2.5rem;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2816,6 +2829,10 @@ video {
 
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:rounded-full {
+    border-radius: 9999px;
   }
 
   .md\:px-20 {
