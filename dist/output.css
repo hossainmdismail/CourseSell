@@ -2803,20 +2803,12 @@ video {
     width: 50%;
   }
 
-  .md\:w-2\/5 {
-    width: 40%;
-  }
-
-  .md\:w-0 {
-    width: 0px;
-  }
-
-  .md\:w-3 {
-    width: 0.75rem;
-  }
-
   .md\:w-10 {
     width: 2.5rem;
+  }
+
+  .md\:w-2\/5 {
+    width: 40%;
   }
 
   .md\:grid-cols-2 {
