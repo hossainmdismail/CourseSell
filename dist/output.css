@@ -559,7 +559,7 @@ video {
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 72rem;
+  max-width: 80rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -2069,6 +2069,10 @@ video {
   height: 100vh;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -2115,6 +2119,30 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-0 {
+  width: 0px;
 }
 
 .max-w-6xl {
@@ -2326,6 +2354,11 @@ video {
   border-color: rgb(228 228 231 / var(--tw-border-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-blue-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(219 234 254 / var(--tw-bg-opacity));
@@ -2474,6 +2507,18 @@ video {
   padding-top: 8rem;
 }
 
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2532,6 +2577,16 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -2687,6 +2742,10 @@ video {
   transition-duration: 500ms;
 }
 
+.duration-200 {
+  transition-duration: 200ms;
+}
+
 /* Instructor */
 
 /* Filter */
@@ -2698,6 +2757,10 @@ video {
 /* Pla yer */
 
 /* Blog */
+
+.hover\:rounded-full:hover {
+  border-radius: 9999px;
+}
 
 .hover\:border-b-2:hover {
   border-bottom-width: 2px;
@@ -2721,6 +2784,11 @@ video {
 .hover\:bg-main-hover:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(247 65 56 / var(--tw-bg-opacity));
+}
+
+.hover\:px-4:hover {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .hover\:text-gray-900:hover {
@@ -2765,6 +2833,14 @@ video {
 
 .focus\:outline-0:focus {
   outline-width: 0px;
+}
+
+.group:hover .group-hover\:block {
+  display: block;
+}
+
+.group:hover .group-hover\:hidden {
+  display: none;
 }
 
 .group:hover .group-hover\:text-main-hover {

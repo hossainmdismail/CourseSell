@@ -5,7 +5,7 @@
 
 @layer components{
     .container{
-        @apply max-w-6xl mx-auto px-4 
+        @apply max-w-7xl mx-auto px-4 
     }
     .section{
         @apply pt-36 pb-16 lg:pb-40

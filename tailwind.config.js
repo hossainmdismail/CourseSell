@@ -10,6 +10,7 @@ module.exports = {
     "./blog.html",
     "./login.html",
     "./signup.html",
+    "./404.html",
     "./blog_details.html"],
   theme: {
     extend: {
