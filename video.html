@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Courses | Video</title>
+    <title>Courses | Home</title>
     <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="asset/css/main.css">
     <link rel="stylesheet" href="asset/css/owl.carousel.css">
     <link rel="stylesheet" href="asset/css/owl.theme.green.css">
+    <link rel="icon" type="image/x-icon" href="./asset/photo/ek.png">
     <script src="https://kit.fontawesome.com/70b22ffbec.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -16,28 +18,46 @@
         <div class="nav_wraper">
     
             <div class="flex space-x-4">
-            <!-- logo -->
-            <div>
-                <a href="index.html" class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
-                <img src="./asset/photo/ek.png" class="h-6 w-6 mr-1 text-blue-400" alt="">
-                <span class="font-bold">E-Book</span>
-                </a>
-            </div>
-    
-            <!-- primary nav -->
-            <div class="hidden md:flex items-center space-x-1">
-                <a href="index.html" class="n-item py-5 px-3 text-gray-700 ">Home</a>
-                <a href="course.html" class="n-item py-5 px-3 text-gray-700 ">Courses</a>
-                <a href="instructor.html" class="n-item py-5 px-3 text-gray-700 ">Instructor</a>
-                <a href="blog.html" class="n-item py-5 px-3 text-gray-700 ">Blog</a>
-                <a href="#" class="n-item py-5 px-3 text-gray-700 ">About Us</a>
-            </div>
+                <!-- logo -->
+                <div>
+                    <a href="index.html" class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
+                    <img src="./asset/photo/ek.png" class="h-6 w-6 mr-1 text-blue-400" alt="">
+                    <span class="font-bold">E-Book</span>
+                    </a>
+                </div>
+        
+                <!-- primary nav -->
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="index.html" class="n-item py-5 px-3 text-gray-700 ">Home</a>
+                    <a href="course.html" class="n-item py-5 px-3 text-gray-700 ">Courses</a>
+                    <a href="instructor.html" class="n-item py-5 px-3 text-gray-700 ">Instructor</a>
+                    <a href="blog.html" class="n-item py-5 px-3 text-gray-700 ">Blog</a>
+                    <div class=" py-5 px-3 text-gray-700 relative cursor-pointer group">Pages
+                        <ul class="absolute top-16 w-0 h-0 overflow-hidden bg-white  px-0 pt-0 rounded-lg duration-200 border group-hover:w-48 group-hover:px-2 group-hover:pt-1  group-hover:h-auto">
+                            <li class="w-full border-b">
+                                <a href="./login.html" class="w-full inline-block p-2 duration-200 hover:text-main hover:ml-2">Login</a>
+                            </li>
+                            <li class="w-full border-b">
+                                <a href="./signup.html" class="w-full inline-block p-2 duration-200 hover:text-main hover:ml-2">SignUp</a>
+                            </li>
+                            <li class="w-full border-b">
+                                <a href="./about_us.html" class="w-full inline-block p-2 duration-200 hover:text-main hover:ml-2">About Us</a>
+                            </li>
+                            <li class="w-full border-b">
+                                <a href="./contact_us.html" class="w-full inline-block p-2 duration-200 hover:text-main hover:ml-2">Contact Us</a>
+                            </li>
+                            <li class="w-full border-b">
+                                <a href="./404.html" class="w-full inline-block p-2 duration-200 hover:text-main hover:ml-2">404</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
             <!-- secondary nav -->
             <div class="hidden md:flex items-center space-x-1">
-            <a href="" class="py-5 px-3">Login</a>
-            <a href="" class="py-2 px-3 bg-main hover:bg-main-hover text-white rounded transition duration-300">Signup</a>
+            <a href="./login.html" class="py-5 px-3">Login</a>
+            <a href="./signup.html" class="py-2 px-3 bg-main hover:bg-main-hover text-white rounded transition duration-300">Signup</a>
             </div>
 
             <!-- mobile button goes here -->
@@ -59,16 +79,27 @@
             <a href="instructor.html" class="block py-2 px-4 text-sm hover:bg-blue-200">Instructor</a>
             <a href="blog.html" class="block py-2 px-4 text-sm hover:bg-blue-200">Blog</a>
             <a href="#" class="block py-2 px-4 text-sm hover:bg-blue-200">About Us</a>
+            <div class="mt-8 mb-4 grid p-5">
+                <a href="./login.html" class="py-5 px-3">Login</a>
+                <a href="./signup.html" class="py-2 px-3 bg-main hover:bg-main-hover text-white rounded transition duration-300">Signup</a>
+            </div>
         </div>
     </nav>
     
-
+    <!-- banner -->
+    <div class="section_another" style="background-image: url('/asset/photo/cov.png')">
+        <div class="container grid gap-4">
+            <h1 class="ins_title">Courses</h1>
+            <div class="bread_cum">
+                <div class="bread_home"><a href="./index.html">Home</a></div>
+                <span class="break_point"></span>
+                <p class="bread_list">Web Development</p>
+            </div>
+        </div>
+    </div>
 
     <div class="section2 ">
         <div class="container">
-            <div class="row mt-4">
-                adsd
-            </div>
             <div class="row mt-4 flex flex-col lg:flex-row gap-5">
                 <div class="col w-full flex-row space-y-5">
                     <div class="ek_vPlayer">

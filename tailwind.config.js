@@ -11,6 +11,9 @@ module.exports = {
     "./login.html",
     "./signup.html",
     "./404.html",
+    "./about_us.html",
+    "./privacy.html",
+    "./privacy.html",
     "./blog_details.html"],
   theme: {
     extend: {

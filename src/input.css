@@ -45,7 +45,7 @@
         @apply flex justify-center items-center py-10 lg:py-0
     }
     .n-item{
-        @apply transition duration-300 after:absolute after:bg-blue-800 after:w-0 after:h-1 after:block  hover:after:w-8
+        @apply duration-300  hover:text-main
     }
     .mini-button{
         @apply py-2 px-4 text-white text-sm font-medium bg-main rounded-lg transition duration-200 hover:bg-main-hover
@@ -420,5 +420,28 @@
     }
     .action_icon{
         @apply hover:text-main cursor-pointer
+    }
+}
+
+/* Contact us */
+
+@layer components{
+    .contect_info{
+        @apply grid grid-cols-1 gap-4 md:grid-cols-3
+    }
+    .contact_item{
+        @apply p-4 bg-main border rounded-xl w-full bg-opacity-5 text-black text-center  duration-200 hover:-translate-y-2
+    }
+    .contact-icon{
+        @apply text-4xl mb-2 text-main
+    }
+    .contect_form{
+        @apply mt-20 grid grid-cols-1 gap-4 md:grid-cols-2
+    }
+    .contact_form_item{
+        @apply w-full
+    }
+    .contact-input{
+        @apply border border-main border-opacity-30 rounded-md p-2 outline-none w-full focus:border-opacity-100
     }
 }
